@@ -3,4 +3,4 @@ nyc_salma:   # nom du profil (doit correspondre au projet dbt)
   outputs:
     dev:
       type: duckdb        # on précise qu’on utilise DuckDB
-      path: data/nyc_parking_violations.db  # chemin du fichier de base de données
+      path: ../data/nyc_parking_violations.db  # chemin du fichier de base de données
